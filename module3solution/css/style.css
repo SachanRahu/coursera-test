@@ -1,0 +1,61 @@
+body {
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+}
+
+#header-nav {
+	padding: 0;
+	
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 {
+	margin: 0px 10px 0px 10px;
+	font-size: 1.7em;
+}
+
+
+
+#page-header {
+	margin-top: 50px;
+}
+
+#main-content {
+	height: 1000px;
+}
+
+.module {
+	margin-top: 10px;
+	background: #999;
+}
+
+
+
+/* desktop: md*/
+@media (min-width: 992px) {
+
+}
+
+/* tablet: sm; */
+@media (min-width: 768px) and  (max-width: 991px) {
+
+}
+
+/* mobile: xs */
+@media (max-width: 767px) {
+	.row {
+		padding: 5px 30px;
+	}
+	.module {
+		margin: 10px 30px 10px 30px;
+	}
+
+	#collapsable-nav {
+	background: #ddd;
+	color: black;
+}
+
+}
